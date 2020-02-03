@@ -1,0 +1,7 @@
+k8s_yaml("guestbook/frontend-deployment.yaml")
+k8s_yaml("guestbook/frontend-service.yaml")
+k8s_yaml("guestbook/ingress.yaml")
+k8s_yaml("guestbook/redis-master-deployment.yaml")
+k8s_yaml("guestbook/redis-master-service.yaml")
+k8s_yaml("guestbook/redis-slave-deployment.yaml")
+k8s_yaml("guestbook/redis-slave-service.yaml")
